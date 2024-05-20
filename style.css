@@ -106,3 +106,64 @@ nav button{
   position: absolute;
   right: 10%;
 }
+
+.section1bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 65px;
+}
+
+.section1bottom img{
+  height: 50px;
+}
+
+
+
+.section2 .services{
+  padding: 40px 65px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+  margin-top: 25px;
+}
+
+.services h3{
+  background-color: #9AE975;
+  font-weight: 500;
+  padding: 8px 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: neuman;
+}
+
+.services p{
+  width: 55%;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.container{
+  height: 86%;
+  width: 100%;
+  padding: 40px 65px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  
+}
+
+.elem{
+  height: 250px;
+  width: 48%;
+  background-color: red;
+  border: 2px solid black;
+  border-radius: 30px;
+  flex-shrink: 0; 
+  box-shadow: 0px 12px 0px black;
+  padding: 20px;
+}
+
+
